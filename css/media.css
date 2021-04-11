@@ -1,0 +1,224 @@
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+   
+}
+@media (min-width: 768px) and (max-width: 991px) {
+   
+}
+@media (min-width: 576px) and (max-width: 767px) {
+   
+}
+
+
+@media (min-width: 321px) and (max-width: 575px) {
+   .phone{
+       display: none;
+   }
+   .navbar-light .navbar-nav .nav-link{
+       z-index: 999;
+   }
+   .header-content{
+       text-align: center;
+   }
+   .feature{
+       margin: 10px 0;
+   }
+   .beautiful .part-2{
+       text-align: center;
+       margin-top: 10px;
+   }
+   .beautiful .details{
+       text-align: left;
+       margin-left: 18px;
+   }
+   .customize{
+       margin-top: 390px;
+       margin-bottom: 145px;
+       text-align: center;
+   }
+   .customize p{
+       font-size: 20px;
+   }
+   .customize-img{
+       padding-top: 96px;
+   }
+   .testimonial{
+    text-align: center;
+    height: 110vh;
+    margin-top: 340px;
+    }
+    .client{
+        width: 56%;
+        margin: auto;
+        padding-top: 20px;
+    }
+    .client-des{
+        text-align: left;
+    }
+    .testimonial p{
+        font-size: 20px;
+    }
+    .testimonial .header{
+        padding-top: 20px;
+    }
+    .theme{
+        height: 45vh;
+        text-align: center;
+    }
+    .theme p{
+        font-size: 20px;
+    }
+    .theme .button{
+        margin-left: auto;
+    }
+    .contact-us .location{
+        margin: 10px 0;
+    }
+    .contact-div{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    form input[type="submit"]{
+        margin-left: auto;
+        padding: 10px 20px;
+       font-size: 12px;
+    }
+    footer p{
+        font-size: 14px;
+    }
+    .footer-icon{
+        padding: 0 35px;
+    }
+}
+
+
+@media (max-width: 320px) {
+   .phone{
+       display: none;
+   }
+   .navbar-light .navbar-nav .nav-link {
+       z-index: 999;
+       width: 25%;
+   }
+   .navbar-light .navbar-nav .nav-link::before{
+       left: 0%
+   }
+   .navbar-light .navbar-nav .nav-link::after{
+       right: 0%;
+   }
+   .navbar-light .navbar-nav .nav-link::before{
+       width: 9%;
+   }
+   .navbar-light .navbar-nav .nav-link::after{
+       width: 9%;
+   }
+   header p{
+       margin: 40px 0px 40px 0px;
+   }
+   header h5{
+       margin: auto;
+       padding-top: 15px;
+   }
+   header h1{
+       font-size: 40px;
+   }
+   .header-content{
+       text-align: center;
+   }
+   .features .feature{
+       margin: 10px auto;
+   }
+   .features h1{
+       font-size: 32px;
+       margin: 15px auto;
+   }
+   .features h5{
+       text-align: center;
+   }
+   .features{
+       margin-top: 5px;
+   }
+   .beautiful .part-2{
+       padding-top: 20px;
+       text-align: center;
+   }
+   .beautiful .details{
+       text-align: left;
+       margin-left: 15px;
+   }
+   .customize{
+       margin: 315px 0 310px 0;
+       text-align: center;
+   }
+   .customize .img-fluid{
+       padding-top: 50px;
+   }
+   .customize h1{
+       padding: 20px 0 10px 0;
+   }
+   .customize p{
+       font-size: 17px;
+   }
+   .customize h1{
+       font-size: 36px;
+   }
+   .testimonial{
+       text-align: center;
+       height: 84vh;
+   }
+   .testimonial p{
+       font-size: 16px;
+   }
+   .client{
+       width: 80%;
+       margin: auto;
+   }
+   .client-des{
+       text-align: left;
+   }
+   .owl-nav{
+       display: none;
+   }
+   .testimonial .canvas{
+       height: 514px;
+   }
+   .theme .button{
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+       height: 42px;
+       margin-left: 0%;
+   }
+   .theme-button{
+       padding-left: 0%;
+       padding-top: 12px;
+   }
+   .theme{
+       height: 40vh;
+       text-align: center;
+       padding-left: 0;
+   }
+   .theme p{
+       font-size: 18px;
+   }
+   form input[type="submit"]{
+       margin-left: auto;
+       padding: 10px 16px;
+       font-size: 10px;
+   }
+   .contact-div{
+       padding-left: 0%;
+       padding-right: 0%;
+   }
+   .contact-us .location{
+       margin: 10px 0;
+   }
+   footer p{
+       font-size: 12px;
+   }
+   .footer-icon{
+       padding: 0 30px;
+   }
+}
